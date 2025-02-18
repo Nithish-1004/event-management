@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    background: #f0ff17;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.event-card {
+    background: rgb(235, 46, 46);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 300px;
+    transition: transform 0.3s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.event-card:hover {
+    transform: rotateY(10deg) scale(1.05);
+}
+
+.dark-mode {
+    background: #000000;
+    color: rgb(235, 198, 76);
+}
+
+.dark-mode .event-card {
+    background: #530202;
+    color: rgb(235, 205, 109);
+}
